@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شراء الكتب - مكتبة نور المعرفة</title>
+     <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">مكتبة <span>نور المعرفة</span></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="Login.html">تسجيل الدخول</a></li>
+                    <li><a href="DisplayBooks page.html">عرض الكتب</a></li>
+                    <li><a href="ReadingBooks page.html">قراءة الكتب</a></li>
+                    <li><a href="DownlaodBooks page.html">تحميل الكتب</a></li>
+                    <li><a href="BuyingBooks page.html" class="active">شراء الكتب</a></li>
+                    <li><a href="Logout.html">تسجيل الخروج</a></li>   
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+    <section class="container">
+        <h2 class="section-title">شراء الكتب</h2>  
+        <div class="purchase-steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>اختر الكتاب</h3>
+                <p>اختر من بين الكتب المتاحة</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>ادفع بسهولة</h3>
+                <p>استخدم طرق الدفع المتعددة</p>
+            </div>           
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>استلم كتابك</h3>
+                <p>احصل على الكتاب فورًا</p>
+            </div>
+        </div>      
+        <div class="form-container">
+            <h3 style="text-align: center; margin-bottom: 2rem;">تفاصيل الشراء</h3>
+            <div class="book-card" style="max-width: 500px; margin: 0 auto 2rem;">
+                <div class="book-image"><img src="../IMAGES/السلام عليك يا صاحبي.jpeg " alt="hi" width="100%" height="100%"></div>
+                <div class="book-info">
+                    <div class="book-title">السلام عليك يا صاحبي</div>
+                    <div class="book-author">أدهم شرقاوي</div>
+                    <div class="book-price">2000.RY</div>
+                </div>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">الاسم الكامل</label>
+                    <input type="text" id="name" required>
+                </div>          
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">العنوان</label>
+                    <textarea id="address" required></textarea>
+                </div>   
+                <div class="form-group">
+                    <label for="payment">طريقة الدفع</label>
+                    <select id="payment" required>
+                        <option value="">اختر طريقة الدفع</option>
+                        <option value="credit">بطاقة ائتمان</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bank">تحويل بنكي</option>
+                    </select>
+                </div>               
+                <button type="submit" class="btn" style="width: 100%;">إتمام الشراء</button>
+            </form>
+        </div>
+        <div class="form-container">
+            <h3 style="text-align: center; margin-bottom: 2rem;">تفاصيل الشراء</h3>
+            <div class="book-card" style="max-width: 500px; margin: 0 auto 2rem;">
+                <div class="book-image"><img src="../IMAGES/ثاني إثنين.jpg " alt="hi" width="100%" height="100%"></div>
+                <div class="book-info">
+                    <div class="book-title">ثاني إثنين</div>
+                    <div class="book-author">أدهم شرقاوي</div>
+                    <div class="book-price">2000.RY</div>
+                </div>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">الاسم الكامل</label>
+                    <input type="text" id="name" required>
+                </div>          
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">العنوان</label>
+                    <textarea id="address" required></textarea>
+                </div>   
+                <div class="form-group">
+                    <label for="payment">طريقة الدفع</label>
+                    <select id="payment" required>
+                        <option value="">اختر طريقة الدفع</option>
+                        <option value="credit">بطاقة ائتمان</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bank">تحويل بنكي</option>
+                    </select>
+                </div>               
+                <button type="submit" class="btn" style="width: 100%;">إتمام الشراء</button>
+            </form>
+        </div>
+        <div class="form-container">
+            <h3 style="text-align: center; margin-bottom: 2rem;">تفاصيل الشراء</h3>
+            <div class="book-card" style="max-width: 500px; margin: 0 auto 2rem;">
+                <div class="book-image"><img src="../IMAGES/رسائل من النبي.jpg " alt="hi" width="100%" height="100%"></div>
+                <div class="book-info">
+                    <div class="book-title"> رسائل من النبي</div>
+                    <div class="book-author">أدهم شرقاوي</div>
+                    <div class="book-price">2500.RY</div>
+                </div>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">الاسم الكامل</label>
+                    <input type="text" id="name" required>
+                </div>          
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">العنوان</label>
+                    <textarea id="address" required></textarea>
+                </div>   
+                <div class="form-group">
+                    <label for="payment">طريقة الدفع</label>
+                    <select id="payment" required>
+                        <option value="">اختر طريقة الدفع</option>
+                        <option value="credit">بطاقة ائتمان</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bank">تحويل بنكي</option>
+                    </select>
+                </div>               
+                <button type="submit" class="btn" style="width: 100%;">إتمام الشراء</button>
+            </form>
+        </div>
+        <div class="form-container">
+            <h3 style="text-align: center; margin-bottom: 2rem;">تفاصيل الشراء</h3>
+            <div class="book-card" style="max-width: 500px; margin: 0 auto 2rem;">
+                <div class="book-image"><img src="../IMAGES/رسائل من القرآن.jpg " alt="hi" width="100%" height="100%"></div>
+                <div class="book-info">
+                    <div class="book-title">رسائل من القرآن</div>
+                    <div class="book-author">أدهم شرقاوي</div>
+                    <div class="book-price">2500.RY</div>
+                </div>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">الاسم الكامل</label>
+                    <input type="text" id="name" required>
+                </div>          
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">العنوان</label>
+                    <textarea id="address" required></textarea>
+                </div>   
+                <div class="form-group">
+                    <label for="payment">طريقة الدفع</label>
+                    <select id="payment" required>
+                        <option value="">اختر طريقة الدفع</option>
+                        <option value="credit">بطاقة ائتمان</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bank">تحويل بنكي</option>
+                    </select>
+                </div>               
+                <button type="submit" class="btn" style="width: 100%;">إتمام الشراء</button>
+            </form>
+        </div>
+        <div class="form-container">
+            <h3 style="text-align: center; margin-bottom: 2rem;">تفاصيل الشراء</h3>
+            <div class="book-card" style="max-width: 500px; margin: 0 auto 2rem;">
+                <div class="book-image"><img src="../IMAGES/حديث الصباح.jpg " alt="hi" width="100%" height="100%"></div>
+                <div class="book-info">
+                    <div class="book-title"> حديث الصباح </div>
+                    <div class="book-author">أدهم شرقاوي</div>
+                    <div class="book-price">2000.RY</div>
+                </div>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">الاسم الكامل</label>
+                    <input type="text" id="name" required>
+                </div>          
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">العنوان</label>
+                    <textarea id="address" required></textarea>
+                </div>   
+                <div class="form-group">
+                    <label for="payment">طريقة الدفع</label>
+                    <select id="payment" required>
+                        <option value="">اختر طريقة الدفع</option>
+                        <option value="credit">بطاقة ائتمان</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bank">تحويل بنكي</option>
+                    </select>
+                </div>               
+                <button type="submit" class="btn" style="width: 100%;">إتمام الشراء</button>
+            </form>
+        </div>
+        <div class="form-container">
+            <h3 style="text-align: center; margin-bottom: 2rem;">تفاصيل الشراء</h3>
+            <div class="book-card" style="max-width: 500px; margin: 0 auto 2rem;">
+                <div class="book-image"><img src="../IMAGES/حديث المساء.jpg" alt="hi" width="100%" height="100%"></div>
+                <div class="book-info">
+                    <div class="book-title">  حديث المساء</div>
+                    <div class="book-author">أدهم شرقاوي</div>
+                    <div class="book-price">2000.RY</div>
+                </div>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">الاسم الكامل</label>
+                    <input type="text" id="name" required>
+                </div>          
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">العنوان</label>
+                    <textarea id="address" required></textarea>
+                </div>   
+                <div class="form-group">
+                    <label for="payment">طريقة الدفع</label>
+                    <select id="payment" required>
+                        <option value="">اختر طريقة الدفع</option>
+                        <option value="credit">بطاقة ائتمان</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bank">تحويل بنكي</option>
+                    </select>
+                </div>               
+                <button type="submit" class="btn" style="width: 100%;">إتمام الشراء</button>
+            </form>
+        </div>
+        <div class="form-container">
+            <h3 style="text-align: center; margin-bottom: 2rem;">تفاصيل الشراء</h3>
+            <div class="book-card" style="max-width: 500px; margin: 0 auto 2rem;">
+                <div class="book-image"><img src="../IMAGES/على خطى الرسول.jpg " alt="hi" width="100%" height="100%"></div>
+                <div class="book-info">
+                    <div class="book-title"> على خطى الرسول</div>
+                    <div class="book-author">أدهم شرقاوي</div>
+                    <div class="book-price">2000.RY</div>
+                </div>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">الاسم الكامل</label>
+                    <input type="text" id="name" required>
+                </div>          
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">العنوان</label>
+                    <textarea id="address" required></textarea>
+                </div>   
+                <div class="form-group">
+                    <label for="payment">طريقة الدفع</label>
+                    <select id="payment" required>
+                        <option value="">اختر طريقة الدفع</option>
+                        <option value="credit">بطاقة ائتمان</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bank">تحويل بنكي</option>
+                    </select>
+                </div>               
+                <button type="submit" class="btn" style="width: 100%;">إتمام الشراء</button>
+            </form>
+        </div>
+        <div class="form-container">
+            <h3 style="text-align: center; margin-bottom: 2rem;">تفاصيل الشراء</h3>
+            <div class="book-card" style="max-width: 500px; margin: 0 auto 2rem;">
+                <div class="book-image"><img src="../IMAGES/نبأ يقين.jpg " alt="hi" width="100%" height="100%"></div>
+                <div class="book-info">
+                    <div class="book-title">نبأ يقين</div>
+                    <div class="book-author">أدهم شرقاوي</div>
+                    <div class="book-price">2000.RY</div>
+                </div>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">الاسم الكامل</label>
+                    <input type="text" id="name" required>
+                </div>          
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">العنوان</label>
+                    <textarea id="address" required></textarea>
+                </div>   
+                <div class="form-group">
+                    <label for="payment">طريقة الدفع</label>
+                    <select id="payment" required>
+                        <option value="">اختر طريقة الدفع</option>
+                        <option value="credit">بطاقة ائتمان</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bank">تحويل بنكي</option>
+                    </select>
+                </div>               
+                <button type="submit" class="btn" style="width: 100%;">إتمام الشراء</button>
+            </form>
+        </div>
+        <div class="form-container">
+            <h3 style="text-align: center; margin-bottom: 2rem;">تفاصيل الشراء</h3>
+            <div class="book-card" style="max-width: 500px; margin: 0 auto 2rem;">
+                <div class="book-image"><img src="../IMAGES/نحن نقص عليك.jpg " alt="hi" width="100%" height="100%"></div>
+                <div class="book-info">
+                    <div class="book-title">نحن نقص عليك</div>
+                    <div class="book-author">أدهم شرقاوي</div>
+                    <div class="book-price">2000.RY</div>
+                </div>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">الاسم الكامل</label>
+                    <input type="text" id="name" required>
+                </div>          
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">العنوان</label>
+                    <textarea id="address" required></textarea>
+                </div>   
+                <div class="form-group">
+                    <label for="payment">طريقة الدفع</label>
+                    <select id="payment" required>
+                        <option value="">اختر طريقة الدفع</option>
+                        <option value="credit">بطاقة ائتمان</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bank">تحويل بنكي</option>
+                    </select>
+                </div>               
+                <button type="submit" class="btn" style="width: 100%;">إتمام الشراء</button>
+            </form>
+        </div>
+        <div class="form-container">
+            <h3 style="text-align: center; margin-bottom: 2rem;">تفاصيل الشراء</h3>
+            <div class="book-card" style="max-width: 500px; margin: 0 auto 2rem;">
+                <div class="book-image"><img src="../IMAGES/وبالحق أنزلناه.jpg " alt="hi" width="100%" height="100%"></div>
+                <div class="book-info">
+                    <div class="book-title"> وبالحق أنزلناه</div>
+                    <div class="book-author">أدهم شرقاوي</div>
+                    <div class="book-price">2000.RY</div>
+                </div>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">الاسم الكامل</label>
+                    <input type="text" id="name" required>
+                </div>          
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">العنوان</label>
+                    <textarea id="address" required></textarea>
+                </div>   
+                <div class="form-group">
+                    <label for="payment">طريقة الدفع</label>
+                    <select id="payment" required>
+                        <option value="">اختر طريقة الدفع</option>
+                        <option value="credit">بطاقة ائتمان</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bank">تحويل بنكي</option>
+                    </select>
+                </div>               
+                <button type="submit" class="btn" style="width: 100%;">إتمام الشراء</button>
+            </form>
+        </div>
+        <div class="form-container">
+            <h3 style="text-align: center; margin-bottom: 2rem;">تفاصيل الشراء</h3>
+            <div class="book-card" style="max-width: 500px; margin: 0 auto 2rem;">
+                <div class="book-image"><img src="../IMAGES/يحكى أن.jpg " alt="hi" width="100%" height="100%"></div>
+                <div class="book-info">
+                    <div class="book-title">يحكى أن </div>
+                    <div class="book-author">أدهم شرقاوي</div>
+                    <div class="book-price">2000.RY</div>
+                </div>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">الاسم الكامل</label>
+                    <input type="text" id="name" required>
+                </div>          
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">العنوان</label>
+                    <textarea id="address" required></textarea>
+                </div>   
+                <div class="form-group">
+                    <label for="payment">طريقة الدفع</label>
+                    <select id="payment" required>
+                        <option value="">اختر طريقة الدفع</option>
+                        <option value="credit">بطاقة ائتمان</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bank">تحويل بنكي</option>
+                    </select>
+                </div>               
+                <button type="submit" class="btn" style="width: 100%;">إتمام الشراء</button>
+            </form>
+        </div>
+        <div class="form-container">
+            <h3 style="text-align: center; margin-bottom: 2rem;">تفاصيل الشراء</h3>
+            <div class="book-card" style="max-width: 500px; margin: 0 auto 2rem;">
+                <div class="book-image"><img src="../IMAGES/الأب الغني والأب الفقير.jpg " alt="hi" width="100%" height="100%"></div>
+                <div class="book-info">
+                    <div class="book-title"> الأب الغني والأب الفقير</div>
+                    <div class="book-author"> روبرت تى كيوساكى</div>
+                    <div class="book-price">1800.RY</div>
+                </div>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">الاسم الكامل</label>
+                    <input type="text" id="name" required>
+                </div>          
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">العنوان</label>
+                    <textarea id="address" required></textarea>
+                </div>   
+                <div class="form-group">
+                    <label for="payment">طريقة الدفع</label>
+                    <select id="payment" required>
+                        <option value="">اختر طريقة الدفع</option>
+                        <option value="credit">بطاقة ائتمان</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bank">تحويل بنكي</option>
+                    </select>
+                </div>               
+                <button type="submit" class="btn" style="width: 100%;">إتمام الشراء</button>
+            </form>
+        </div>
+        <div class="form-container">
+            <h3 style="text-align: center; margin-bottom: 2rem;">تفاصيل الشراء</h3>
+            <div class="book-card" style="max-width: 500px; margin: 0 auto 2rem;">
+                <div class="book-image"><img src="../IMAGES/الرجال من المريخ والنساء من الزهرة.jpg" alt="hi" width="100%" height="100%"></div>
+                <div class="book-info">
+                    <div class="book-title">  الرجال من المريخ والنساء من الزهرة</div>
+                    <div class="book-author">جون غراي</div>
+                    <div class="book-price">1500.RY</div>
+                </div>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">الاسم الكامل</label>
+                    <input type="text" id="name" required>
+                </div>          
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">العنوان</label>
+                    <textarea id="address" required></textarea>
+                </div>   
+                <div class="form-group">
+                    <label for="payment">طريقة الدفع</label>
+                    <select id="payment" required>
+                        <option value="">اختر طريقة الدفع</option>
+                        <option value="credit">بطاقة ائتمان</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bank">تحويل بنكي</option>
+                    </select>
+                </div>               
+                <button type="submit" class="btn" style="width: 100%;">إتمام الشراء</button>
+            </form>
+        </div>
+        <div class="form-container">
+            <h3 style="text-align: center; margin-bottom: 2rem;">تفاصيل الشراء</h3>
+            <div class="book-card" style="max-width: 500px; margin: 0 auto 2rem;">
+                <div class="book-image"><img src="../IMAGES/السر.jpg " alt="hi" width="100%" height="100%"></div>
+                <div class="book-info">
+                    <div class="book-title">السر </div>
+                    <div class="book-author"> روندا بايرن</div>
+                    <div class="book-price">1600.RY</div>
+                </div>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">الاسم الكامل</label>
+                    <input type="text" id="name" required>
+                </div>          
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">العنوان</label>
+                    <textarea id="address" required></textarea>
+                </div>   
+                <div class="form-group">
+                    <label for="payment">طريقة الدفع</label>
+                    <select id="payment" required>
+                        <option value="">اختر طريقة الدفع</option>
+                        <option value="credit">بطاقة ائتمان</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bank">تحويل بنكي</option>
+                    </select>
+                </div>               
+                <button type="submit" class="btn" style="width: 100%;">إتمام الشراء</button>
+            </form>
+        </div>
+        <div class="form-container">
+            <h3 style="text-align: center; margin-bottom: 2rem;">تفاصيل الشراء</h3>
+            <div class="book-card" style="max-width: 500px; margin: 0 auto 2rem;">
+                <div class="book-image"><img src="../IMAGES/قواعد العشق الأربعون.jpg " alt="hi" width="100%" height="100%"></div>
+                <div class="book-info">
+                    <div class="book-title"> قواعد العشق الأربعون</div>
+                    <div class="book-author">إليف شافاق</div>
+                    <div class="book-price">1800.RY</div>
+                </div>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">الاسم الكامل</label>
+                    <input type="text" id="name" required>
+                </div>          
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">العنوان</label>
+                    <textarea id="address" required></textarea>
+                </div>   
+                <div class="form-group">
+                    <label for="payment">طريقة الدفع</label>
+                    <select id="payment" required>
+                        <option value="">اختر طريقة الدفع</option>
+                        <option value="credit">بطاقة ائتمان</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bank">تحويل بنكي</option>
+                    </select>
+                </div>               
+                <button type="submit" class="btn" style="width: 100%;">إتمام الشراء</button>
+            </form>
+        </div>
+        <div class="form-container">
+            <h3 style="text-align: center; margin-bottom: 2rem;">تفاصيل الشراء</h3>
+            <div class="book-card" style="max-width: 500px; margin: 0 auto 2rem;">
+                <div class="book-image"><img src="../IMAGES/كن أنت.jpg " alt="hi" width="100%" height="100%"></div>
+                <div class="book-info">
+                    <div class="book-title"> كن أنت</div>
+                    <div class="book-author">إيهاب حمارنة </div>
+                    <div class="book-price">1500.RY</div>
+                </div>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">الاسم الكامل</label>
+                    <input type="text" id="name" required>
+                </div>          
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">العنوان</label>
+                    <textarea id="address" required></textarea>
+                </div>   
+                <div class="form-group">
+                    <label for="payment">طريقة الدفع</label>
+                    <select id="payment" required>
+                        <option value="">اختر طريقة الدفع</option>
+                        <option value="credit">بطاقة ائتمان</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bank">تحويل بنكي</option>
+                    </select>
+                </div>               
+                <button type="submit" class="btn" style="width: 100%;">إتمام الشراء</button>
+            </form>
+        </div>
+        <div class="form-container">
+            <h3 style="text-align: center; margin-bottom: 2rem;">تفاصيل الشراء</h3>
+            <div class="book-card" style="max-width: 500px; margin: 0 auto 2rem;">
+                <div class="book-image"><img src="../IMAGES/لأنك الله.jpg " alt="hi" width="100%" height="100%"></div>
+                <div class="book-info">
+                    <div class="book-title">لأنك الله </div>
+                    <div class="book-author">علي الفيفي</div>
+                    <div class="book-price">2500.RY</div>
+                </div>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">الاسم الكامل</label>
+                    <input type="text" id="name" required>
+                </div>          
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">العنوان</label>
+                    <textarea id="address" required></textarea>
+                </div>   
+                <div class="form-group">
+                    <label for="payment">طريقة الدفع</label>
+                    <select id="payment" required>
+                        <option value="">اختر طريقة الدفع</option>
+                        <option value="credit">بطاقة ائتمان</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bank">تحويل بنكي</option>
+                    </select>
+                </div>               
+                <button type="submit" class="btn" style="width: 100%;">إتمام الشراء</button>
+            </form>
+        </div>
+        <div class="form-container">
+            <h3 style="text-align: center; margin-bottom: 2rem;">تفاصيل الشراء</h3>
+            <div class="book-card" style="max-width: 500px; margin: 0 auto 2rem;">
+                <div class="book-image"><img src="../IMAGES/ما رواه البحر.jpg " alt="hi" width="100%" height="100%"></div>
+                <div class="book-info">
+                    <div class="book-title"> ما رواه البحر</div>
+                    <div class="book-author">ساندرا سراج</div>
+                    <div class="book-price">1500.RY</div>
+                </div>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">الاسم الكامل</label>
+                    <input type="text" id="name" required>
+                </div>          
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">العنوان</label>
+                    <textarea id="address" required></textarea>
+                </div>   
+                <div class="form-group">
+                    <label for="payment">طريقة الدفع</label>
+                    <select id="payment" required>
+                        <option value="">اختر طريقة الدفع</option>
+                        <option value="credit">بطاقة ائتمان</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bank">تحويل بنكي</option>
+                    </select>
+                </div>               
+                <button type="submit" class="btn" style="width: 100%;">إتمام الشراء</button>
+            </form>
+        </div>
+        <div class="form-container">
+            <h3 style="text-align: center; margin-bottom: 2rem;">تفاصيل الشراء</h3>
+            <div class="book-card" style="max-width: 500px; margin: 0 auto 2rem;">
+                <div class="book-image"><img src="../IMAGES/مائة من عظماء أمة الإسلام غيروا مجرى التاريخ.jpg " alt="hi" width="100%" height="100%"></div>
+                <div class="book-info">
+                    <div class="book-title">  مائة من عظماء أمة الإسلام غيروا مجرى التاريخ</div>
+                    <div class="book-author"> جهاد الترباني</div>
+                    <div class="book-price">2000.RY</div>
+                </div>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">الاسم الكامل</label>
+                    <input type="text" id="name" required>
+                </div>          
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">العنوان</label>
+                    <textarea id="address" required></textarea>
+                </div>   
+                <div class="form-group">
+                    <label for="payment">طريقة الدفع</label>
+                    <select id="payment" required>
+                        <option value="">اختر طريقة الدفع</option>
+                        <option value="credit">بطاقة ائتمان</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bank">تحويل بنكي</option>
+                    </select>
+                </div>               
+                <button type="submit" class="btn" style="width: 100%;">إتمام الشراء</button>
+            </form>
+        </div>
+        <div class="form-container">
+            <h3 style="text-align: center; margin-bottom: 2rem;">تفاصيل الشراء</h3>
+            <div class="book-card" style="max-width: 500px; margin: 0 auto 2rem;">
+                <div class="book-image"><img src="../IMAGES/نظرية الفستق.jpg " alt="hi" width="100%" height="100%"></div>
+                <div class="book-info">
+                    <div class="book-title"> نظرية الفستق</div>
+                    <div class="book-author">فهد عامر الأحمدي</div>
+                    <div class="book-price">1700.RY</div>
+                </div>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">الاسم الكامل</label>
+                    <input type="text" id="name" required>
+                </div>          
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">العنوان</label>
+                    <textarea id="address" required></textarea>
+                </div>   
+                <div class="form-group">
+                    <label for="payment">طريقة الدفع</label>
+                    <select id="payment" required>
+                        <option value="">اختر طريقة الدفع</option>
+                        <option value="credit">بطاقة ائتمان</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bank">تحويل بنكي</option>
+                    </select>
+                </div>               
+                <button type="submit" class="btn" style="width: 100%;">إتمام الشراء</button>
+            </form>
+        </div>
+        <div class="form-container">
+            <h3 style="text-align: center; margin-bottom: 2rem;">تفاصيل الشراء</h3>
+            <div class="book-card" style="max-width: 500px; margin: 0 auto 2rem;">
+                <div class="book-image"><img src="../IMAGES/الشوك والقرنفل.jpg " alt="hi" width="100%" height="100%"></div>
+                <div class="book-info">
+                    <div class="book-title">الشوك والقرنفل</div>
+                    <div class="book-author"> يحيى السنوار</div>
+                    <div class="book-price">2000.RY</div>
+                </div>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">الاسم الكامل</label>
+                    <input type="text" id="name" required>
+                </div>          
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">العنوان</label>
+                    <textarea id="address" required></textarea>
+                </div>   
+                <div class="form-group">
+                    <label for="payment">طريقة الدفع</label>
+                    <select id="payment" required>
+                        <option value="">اختر طريقة الدفع</option>
+                        <option value="credit">بطاقة ائتمان</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bank">تحويل بنكي</option>
+                    </select>
+                </div>               
+                <button type="submit" class="btn" style="width: 100%;">إتمام الشراء</button>
+            </form>
+        </div>
+    </section>
+    </main>
+ <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>عن المكتبة</h3>
+                    <p>مكتبة نور المعرفة هي وجهتك الأولى للحصول على أفضل الكتب العربية والعالمية .</p>
+                </div>               
+                <div class="footer-section">
+                    <h3>وسائل التواصل</h3>
+                    <p>تابعنا على منصات التواصل الاجتماعي</p>
+                    <div style="margin-top: 10px;">
+                        <a href="Cold Stone" style="color: white; margin-left: 10px;">فيسبوك</a>
+                        <a href="Light Moon" style="color: white; margin-left: 10px;">تويتر</a>
+                        <a href="Cold Stone" style="color: white; margin-left: 10px;">إنستغرام</a>
+                    </div>
+                </div>
+            </div>           
+            <div class="footer-bottom">
+               <p>جميع الحقوق محفوظة © مكتبة المعرفة 2025</p>           
+    </footer> 
+    <button id="themeToggle">Dark Mode</button>
+    <div id="countdown">ينتهي العرض خلال: 3 أيام </div>
+    <script src="../JAVASCRIPT/script.js"></script>
+
+</body>
+</html>
